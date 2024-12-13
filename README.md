@@ -30,7 +30,7 @@ A sleek and responsive weather application built with **HTML**, **CSS**, and **J
 ---
 
 ## 📸 Screenshots
-![Weather App Screenshot](https://via.placeholder.com/600x400 "Add your app screenshot here")
+![Weather App Screenshot](https://imgur.com/a/HRsQ9SG")
 
 *(Replace the above link with an actual screenshot URL)*
 

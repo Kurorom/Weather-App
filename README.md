@@ -30,16 +30,15 @@ A sleek and responsive weather application built with **HTML**, **CSS**, and **J
 ---
 
 ## 📸 Screenshots
-![Weather App Screenshot](https://imgur.com/a/HRsQ9SG")
+![Weather App Screenshot](https://i.imgur.com/uB6jw8B.png")
 
-*(Replace the above link with an actual screenshot URL)*
 
 ---
 
 ## 🔮 Future Improvements
-- 📅 **Forecast Data**: Add hourly and weekly weather forecasts.
-- 🌙 **Dark Mode**: Introduce a theme toggle for light/dark mode.
+- 🌍 **Geolocation**: Automatically display weather for the user's current location.
 
 
-
+## ⭐ Connect
+If you like this project, feel free to ⭐ the repository and share your feedback! 😊
 

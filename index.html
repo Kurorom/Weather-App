@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="weather-side">
+          <div class="weather-gradient"></div>
+          <div class="date-container">
+            <h2 class="date-dayname">Tuesday</h2>
+            <span class="date-day">12 Aug 2023</span>
+            <i class="location-icon" data-feather="map-pin"></i><span class="location">Paris,FR</span>
+          </div>
+          <div class="weather-container"><i class="weather-icon" data-feather="sun"
+></i>
+            <h1 class="weather-temp">29°C</h1>
+            
+            <h3 class="weather-desc">Sunny</h3>
+          </div>
+        </div>
+        <div class="info-side">
+            <div class="location-container">
+                <div class="search">
+                    <input type="text" placeholder="enter a city name" spellcheck="false">
+                    <button><img src="images/search.png" ></button>
+                </div>
+                <!-- <button class="location-button"> <i data-feather="map-pin">
+                        </i><span>Change location</span></button> -->
+            </div>
+            <div class="today-info-container">
+                <div class="today-info">
+                    <div class="humidity">
+                      <span class="title">HUMIDITY</span><span class="value" id="humidity">34 %</span>
+                      <div class="clear"></div>
+                    </div>
+                    <div class="wind">
+                      <span class="title">WIND</span><span class="value" id="wind">0 km/h</span>
+                    <div class="clear"></div>
+                    </div>
+                  </div>
+            </div>
+          <div class="week-container">
+            <ul class="week-list">
+              <li class=""><i class="day-icon" > 
+                </i><img class="day-icon" src="images/clear.png" id="icon1" alt="">
+                    <span class="day-name" id="day1">Tue</span>
+                    <span class="day-temp" id="temp1">29°C</span>
+                    
+                  </li>
+              <li onclick=""  ><i class="day-icon" data-feather="cloud">
+                    </i><img class="day-icon" src="images/rain.png" id="icon2" alt="">
+                        <span class="day-name" id="day2">Wed</span>
+                        <span class="day-temp" id="temp2">21°C</span>
+              </li>
+              <li><i class="day-icon" data-feather="cloud-snow">
+                    </i><img class="day-icon" src="images/rain.png" id="icon3" alt="">
+                        <span class="day-name" id="day3">Thu</span>
+                        <span class="day-temp" id="temp3">08°C</span>
+              </li>
+              <li><i class="day-icon" data-feather="cloud-rain">
+                    </i><img class="day-icon" src="images/rain.png" id="icon4" alt="">
+                        <span class="day-name" id="day4">Fry</span>
+                        <span class="day-temp" id="temp4">19°C</span>
+              </li>
+              <li><i class="day-icon" data-feather="cloud-rain">
+                    </i><img class="day-icon" src="images/rain.png" id="icon5" alt="">
+                        <span class="day-name" id="day5">sat</span>
+                        <span class="day-temp" id="temp5">19°C</span>
+              </li>
+              <li><i class="day-icon"  data-feather="cloud-rain"></i>
+                <img class="day-icon" src="images/rain.png" id="icon6" alt="">  
+                <span class="day-name" id="day6">sun</span>
+                <span class="day-temp" id="temp6">19°C</span>
+              </li>
+              <div class="clear"></div>
+            </ul>
+          </div>
+          
+        </div>
+      </div>
+</body>
+<script src="script.js"></script>
+</html>
